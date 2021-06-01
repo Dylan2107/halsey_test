@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kalam:wght@700&family=Patrick+Hand&family=Rock+Salt&family=Schoolbell&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>From New Americana To Manic</title>
+</head>
+
+<body>
+    <section id="banner">
+
+        <img src="./images/new-americana.jpg" class="logo">
+        <div class="banner-text">
+            <h1>From New Americana To Manic</h1>
+            <p>El Gran Salto A La Fama</p>
+            <div class="banner-btn">
+                <a href="./contact.html"><span></span>CONTACTO</a>
+                <a href="./merch.html"><span></span>MERCHANDISING</a>
+            </div>
+        </div>
+
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#bibliografia">BIBLIOGRAFÍA</a></li>
+                <li><a href="#galeria">GALERÍA</a></li>
+                <li><a href="#discografia">DIOSCGRAFÍA</a></li>
+                <li><a href="./contact.html">CONTACTO</a></li>
+                <li><a href="./merch.html">MERCHANDISING</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="../images/menu-of-three-horizontal-parallel-straight-lines-outline.png" id="menu">
+    </div>
+    <!-- FORMULARIO DE CONTACTO -->
+    <div class="box">
+        <form action="#" method="GET">
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" maxlength="30" autofocus
+                required />
+
+            <label for="apellidos">Apellidos*</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido" maxlength="30" />
+
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" placeholder="email" required />
+
+            <label for="checkbox-inline">¿Cómo nos has conocido?</label><br>
+            <label for="cb1"><input type="checkbox" name="checkbox" value="Checkbox 1" id="cb1">Email</label>
+            <label for="cb2"><input type="checkbox" name="checkbox" value="Checkbox 2" id="cb2">Googleando</label>
+            <label for="cb3"><input type="checkbox" name="checkbox" value="Checkbox 3" id="cb3">Boca a Boca</label>
+            <label for="cb4"><input type="checkbox" name="checkbox" value="Checkbox 4" id="cb4">Facebook</label>
+            <label for="cb4"><input type="checkbox" name="checkbox" value="Checkbox 5" id="cb5">Twitter</label>
+            <label for="cb4"><input type="checkbox" name="checkbox" value="Checkbox 6" id="cb6">Otros</label>
+            <br>
+
+
+            <label for="mensaje">Escribe un mensaje*</label>
+            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres"
+                maxlength="300"></textarea>
+
+            <label><input type="checkbox" name="terms" value="terms" id="terms" required><label for="terms">He leído y
+                    acepto el <a href="./avpp.html" target="_blank"> aviso legal y la política de
+                        privacidad</a></label></label><br>
+
+            <input type="submit" name="enviar" value="enviar datos" />
+        </form>
+    </div>
+    <!--  -----------MENU DE CONTACTO SENCILLO ADAPTADO A LA PAGINA WEB-------
+    <section id="section">
+        <div class="container">
+            <div class="contactinfo">
+                <div>
+                    <h2>INFORMACIÓN DE CONTACTO</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="./images/location.png" /></span>
+                            <span>Partida Michanet nº15
+                                Villajoyosa, Alicante
+                                03570
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="./images/mail.png" /></span>
+                            <span>dylan.designer21@gmail.com
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="./images/call.png" /></span>
+                            <span>(+34) 611 194 360
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="#"><img src="./images/1.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="./images/2.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="./images/3.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="./images/4.png" alt="pinterest"></a></li>
+                    <li><a href="#"><img src="./images/5.png" alt="google"></a></li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <h2>Envíanos un mensaje</h2>
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="" required autofocus>
+                        <span>NOMBRE</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>APELLIDOS</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="email" name="" required>
+                        <span>EMAIL</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="tel" name="" required>
+                        <span>TELÉFONO MÓVIL</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="" placeholder="Escribenos aquí tu mensaje." maxlength="400" required></textarea>
+                        <span>DEJANOS AQUÍ TU MENSAJE</span>
+                    </div>
+
+                </div>
+                <div class="botton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- ANIMACIÓN PARA EL MENU LATERAL -->
+    <script>
+        sideNav.style.right = "-250px";
+        var menuBtn = document.getElementById("menuBtn")
+        var menuBtn = document.getElementById("sideNav")
+        var menuBtn = document.getElementById("menu")
+
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "./images/close.png"
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "./images/menu-of-three-horizontal-parallel-straight-lines-outline.png";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kalam:wght@700&family=Patrick+Hand&family=Rock+Salt&family=Schoolbell&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>From New Americana To Manic</title>
+</head>
+
+<body>
+    <section id="banner">
+
+        <img src="./images/new-americana.jpg" class="logo">
+        <div class="banner-text">
+            <h1>From New Americana To Manic</h1>
+            <p>El Gran Salto A La Fama</p>
+            <div class="banner-btn">
+                <a href="./contact.html"><span></span>CONTACTO</a>
+                <a href="./merch.html"><span></span>MERCHANDISING</a>
+            </div>
+        </div>
+
+    </section>
+    <div id="sideNav">
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#bibliografia">BIBLIOGRAFÍA</a></li>
+                <li><a href="#galeria">GALERÍA</a></li>
+                <li><a href="#discografia">DIOSCGRAFÍA</a></li>
+                <li><a href="./contact.html">CONTACTO</a></li>
+                <li><a href="./merch.html">MERCHANDISING</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="../images/menu-of-three-horizontal-parallel-straight-lines-outline.png" id="menu">
+    </div>
+
+    <script>
+        sideNav.style.right = "-250px";
+        var menuBtn = document.getElementById("menuBtn")
+        var menuBtn = document.getElementById("sideNav")
+        var menuBtn = document.getElementById("menu")
+
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "./images/close.png"
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "./images/menu-of-three-horizontal-parallel-straight-lines-outline.png";
+            }
+        }
+    </script>
+</body>
+
+
+</html>
